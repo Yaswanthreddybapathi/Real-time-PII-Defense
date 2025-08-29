@@ -3,7 +3,7 @@
 # 🔒 PII Detector -- Deployment Guide
 
 This repository contains a simple yet effective **PII (Personally
-Identifiable Information) Detector** built by **Ankur Chaurasia**.\
+Identifiable Information) Detector** built by **yaswanth reddy**.\
 It scans datasets for sensitive information, redacts it, and marks rows
 containing PII for easy analysis.
 
@@ -23,9 +23,9 @@ containing PII for easy analysis.
 ## 📂 Project Structure
 
     project/
-    ├── detector_full_Ankur_Chaurasia.py    # Main detection script
+    ├── detector_full_candidate_name.py    # Main detection script
     ├── iscp_pii_dataset_-_Sheet1.csv       # Input dataset
-    └── redacted_output_Ankur_Chaurasia.csv # Redacted output file
+    └── redacted_output_candidate_full_name.csv # Redacted output file
 
 ------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ containing PII for easy analysis.
 Run the detector from your terminal:
 
 ``` bash
-python3 detector_full_Ankur_Chaurasia.py iscp_pii_dataset_-_Sheet1.csv
+python3 detector_full_candidate_name.py iscp_pii_dataset_-_Sheet1.csv
 ```
 
 ------------------------------------------------------------------------
@@ -42,7 +42,7 @@ python3 detector_full_Ankur_Chaurasia.py iscp_pii_dataset_-_Sheet1.csv
 ## 📊 Output
 
 -   Generates a **new CSV file** →
-    `redacted_output_Ankur_Chaurasia.csv`\
+    `redacted_output_candidate_full_name.csv`\
 -   Sensitive data is replaced with `XXXX`\
 -   Adds a column `is_pii`:
     -   `True` → row contains PII\
@@ -59,4 +59,4 @@ python3 detector_full_Ankur_Chaurasia.py iscp_pii_dataset_-_Sheet1.csv
 
 ## 👤 Author
 
-**Ankur Chaurasia**
+**yaswanth reddy**
